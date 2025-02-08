@@ -21,4 +21,6 @@
 
 ![image](https://github.com/user-attachments/assets/97b20532-780e-4dc0-b218-fba29e0f1912)
 
+В будущем будет реализована проверка на отсуствие java файлов и запоминание пути.
+
 P.S. Изображение котика взято с сайта https://cobalt.tools/
