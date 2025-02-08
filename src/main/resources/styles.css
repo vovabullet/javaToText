@@ -1,0 +1,85 @@
+.root {
+    -fx-padding: 20px;
+    -fx-background-color: #1A1B1C;
+    -fx-text-fill: #e1e1e1;
+    -fx-font-family: "IBM Plex Mono", "Noto Sans Mono Variable", "Noto Sans Mono", monospace;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Инпут */
+.text-field {
+    -fx-text-fill: #e1e1e1;
+    -fx-padding: 5px;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 18px;
+    -fx-background-color: #2F3031;
+    -fx-border-color: #666767;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+
+}
+
+.text-field:focused {
+    -fx-border-color: white;
+}
+
+.text-field:hover {
+    -fx-border-color: white;
+}
+
+
+/* Контейнер с кнопками */
+.button-container {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+/* Кнопки */
+.button {
+    -fx-padding: 8px 30px;
+    -fx-text-fill: #e1e1e1;
+    -fx-background-color: #2F3031;
+    -fx-border-color: #666767;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+}
+
+.button:hover {
+    -fx-border-color: white;
+    -fx-background-radius: 6px;
+}
+
+/* Поле консоли (TextArea) */
+.text-area {
+    -fx-text-fill: #e1e1e1;
+    -fx-padding: 5px;
+    -fx-background-color: #2F3031;
+    -fx-border-color: #666767;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+}
+
+.text-area:focused, .text-area:hover {
+    -fx-border-color: white;
+}
+
+.text-area .content {
+    -fx-background-color: #2F3031;
+    -fx-text-fill: #e1e1e1;
+    -fx-border-radius: 6px;
+}
+
+/* Ползунок (thumb) */
+.text-area .scroll-bar .thumb {
+    -fx-background-color: #666767;
+    -fx-background-radius: 10px;
+}
+
+/* Убираем кнопки прокрутки */
+.text-area .scroll-bar .increment-button,
+.text-area .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
